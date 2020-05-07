@@ -52,6 +52,14 @@
               "id": "a9cf7b0f-a10c-4524-946d-d678beb0621b",
               "z": 2,
               "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "subtiitle",
+                  "type": "Denial of service"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -130,6 +138,10 @@
                 {
                   "x": 443,
                   "y": 194
+                },
+                {
+                  "x": 366,
+                  "y": 214
                 },
                 {
                   "x": 28,
