@@ -9,7 +9,143 @@
       {
         "title": "vlc",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 372,
+                "y": 23
+              },
+              "angle": 0,
+              "id": "80c18e17-00d4-4828-ac31-bab6005c9c65",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "player music or\nvideo"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 28,
+                "y": 32
+              },
+              "angle": 0,
+              "id": "a9cf7b0f-a10c-4524-946d-d678beb0621b",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "user"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a9cf7b0f-a10c-4524-946d-d678beb0621b"
+              },
+              "target": {
+                "id": "80c18e17-00d4-4828-ac31-bab6005c9c65"
+              },
+              "vertices": [
+                {
+                  "x": 232,
+                  "y": 93
+                }
+              ],
+              "id": "f8380819-bb48-40a7-8fe7-be061a59741d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "title": "subtittle",
+                  "type": "Denial of service"
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 30,
+                "y": 20
+              },
+              "target": {
+                "x": 109,
+                "y": 3
+              },
+              "vertices": [
+                {
+                  "x": 531,
+                  "y": 28
+                },
+                {
+                  "x": 443,
+                  "y": 194
+                },
+                {
+                  "x": 28,
+                  "y": 163
+                }
+              ],
+              "id": "e35e8851-1356-471e-b56b-bd758ebafef3",
+              "z": 4,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ],
     "reviewer": "malanga thilakarathna"
