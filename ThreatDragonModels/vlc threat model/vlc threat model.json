@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "vlc threat model",
+    "owner": "malanga thilakarathna"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "vlc",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "malanga thilakarathna"
+  }
+}
